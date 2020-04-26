@@ -1,0 +1,625 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* HEADER */
+
+.site-header {
+    width: 100%;
+    height: 100vh;
+    border-collapse: collapse;
+    /* background: #0f8a9d;
+    background: linear-gradient(57deg, #00C6A7 , #1E4D92 );  */
+}
+
+
+/* ....NAVIGATION-Bar.... */
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 85px;
+    /*background-color:  red;*/
+    display: flex;
+    color: black;
+    position: sticky;
+}
+
+.logo {
+    width: 45%;
+    height: 80px;
+}
+
+.logo img {
+    line-height: 100px;
+    margin-left: 70px;
+    margin-top: 15px;
+    width: 50px;
+    height: 53px;
+}
+
+.menu {
+    width: 55%;
+    height: 50px;
+}
+
+.menu ul {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu ul li {
+    /* padding: 10px; */
+    margin-right: 12px;
+    padding-top: 12px;
+    list-style: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.menu ul li:hover {
+    color: rgb(236, 81, 10);
+}
+
+.active {
+    color: rgb(116, 201, 120);
+}
+
+
+/* COVID */
+
+.covid {
+    margin-top: 0px;
+    padding: 0;
+    margin: 0;
+    margin-top: 36px;
+    height: 130px;
+    width: 100%;
+    text-align: center;
+}
+
+.covid h2 {
+    padding-top: 6px;
+    padding-bottom: 4px;
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.covid p {
+    font-size: 16px;
+    padding: 4px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/*sections*/
+
+.sectioninstr {
+    display: flex;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.leftside {
+    margin-left: 7%;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.leftside img {
+    width: 380px;
+    height: 250px;
+    padding-left: 30%;
+    padding-top: 10px;
+}
+
+.rightside {
+    width: 55%;
+    height: 100%;
+    color: black;
+    text-align: left;
+    padding: 22px;
+}
+
+.rightside h1 {
+    text-align: left;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    color: rgb(155, 187, 157);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.rightside p {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.rightside h3 {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    color: rgb(54, 71, 58);
+}
+
+.instr p {
+    font-size: 12px;
+    margin-left: 15px;
+    color: grey;
+}
+
+
+/* Khyber pk*/
+
+.sectionkpk {
+    display: flex;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.leftside1 {
+    padding-left: 45px;
+    width: 55%;
+    height: 100%;
+    color: black;
+    text-align: left;
+    padding: 22px;
+    padding-top: 25px;
+}
+
+
+/* .leftside1 img {
+    width: 20px;
+    height: 22px;
+    padding-right: 20%;
+    padding-top: 25px;
+} */
+
+.rightside1 {
+    margin-left: 7%;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 12px;
+    margin-top: 0px;
+}
+
+.kpkimage {
+    width: 300px;
+    height: 210px;
+    padding-left: 25%;
+    padding-top: 45px;
+    /* margin-bottom: 10px; */
+}
+
+.instr1 {
+    border: 1px solid rgb(231, 219, 219);
+    /* border-style: outset; */
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.leftside1 h4 {
+    padding-left: 29.5%;
+    padding-bottom: 16px;
+    font-size: 14px;
+    font-weight: 250;
+    font-family: serif;
+}
+
+.leftside1 h1 {
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    padding-left: 27.5%;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.instr1 h3 {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /* padding-left: 40px; */
+    padding-top: 8px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.instr1 span {
+    font-size: 11px;
+    margin-left: 3px;
+}
+
+
+/* .instr1 h3 span {
+    font-size: 13px;
+     font-family: 'Roboto', sans-serif;       
+     border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+} */
+
+
+/* Punjab */
+
+.sectionpunjab {
+    display: flex;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.leftside2 {
+    margin-left: 7%;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 17px;
+    margin-top: 0px;
+}
+
+.leftside2 img {
+    width: 310px;
+    height: 190px;
+    padding-left: 25%;
+    padding-top: 25px;
+    /* margin-bottom: 10px; */
+}
+
+.rightside2 {
+    width: 55%;
+    height: 100%;
+    color: black;
+    text-align: left;
+    padding-left: 50px;
+    padding: 22px;
+}
+
+.rightside2 h1 {
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    padding-left: 27.5%;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.rightside2 p {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.instr2 h3 {
+    font-size: 13px;
+    padding-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    /* padding-left: 40px; */
+    color: black;
+}
+
+.instr2 span {
+    font-size: 11px;
+    margin-left: 3px;
+}
+
+.instr2 {
+    border: 1px solid rgb(231, 219, 219);
+    /* border-style: outset; */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.rightside2 h4 {
+    padding-left: 29.5%;
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 250;
+    font-family: serif;
+}
+
+
+/* sindh */
+
+.sectionsindh {
+    display: flex;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.leftside3 {
+    padding-left: 40px;
+    width: 55%;
+    height: 100%;
+    color: black;
+    text-align: left;
+    padding: 22px;
+}
+
+
+/* .leftside3 img {
+    width: 250px;
+    height: 210px;
+    padding-right: 25%;
+    padding-top: 10px;
+} */
+
+.sindhimage {
+    width: 280px;
+    height: 210px;
+    padding-left: 25%;
+    padding-top: 45px;
+    /* margin-bottom: 10px; */
+}
+
+.rightside3 {
+    margin-left: 7%;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+    margin-top: 12px;
+}
+
+.instr3 {
+    border: 1px solid rgb(231, 219, 219);
+    /* border-style: outset; */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.leftside3 h4 {
+    padding-left: 29.5%;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 250;
+    font-family: serif;
+}
+
+.leftside3 h1 {
+    text-align: left;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    padding-left: 27.5%;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.instr3 h3 {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /* padding-left: 40px; */
+    padding-top: 8px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.instr3 h3 span {
+    font-size: 11px;
+    padding-left: 3px;
+    /* font-family: 'Roboto', sans-serif;       */
+}
+
+
+/* Balochistan*/
+
+.sectionbaloch {
+    display: flex;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.leftside4 {
+    margin-left: 9%;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+.instr4 {
+    border: 1px solid rgb(231, 219, 219);
+    /* border-style: outset; */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.rightside4 h4 {
+    padding-left: 29.5%;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 250;
+    font-family: serif;
+}
+
+.rightside4 {
+    width: 55%;
+    height: 100%;
+    color: black;
+    text-align: left;
+    padding: 22px;
+}
+
+.balouchimage {
+    width: 290px;
+    height: 180px;
+    padding-left: 25%;
+    padding-top: 25px;
+    /* margin-bottom: 10px; */
+}
+
+.rightside4 h1 {
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 27.5%;
+    padding-bottom: 4px;
+    padding-left: 27.5%;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.rightside4 p {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.instr4 h3 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /* padding-left: 29.5%; */
+    padding-top: 8px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.instr4 span {
+    font-size: 11px;
+    margin-left: 3px;
+}
+
+
+/* GilGit Baltistan */
+
+.sectiongilgit {
+    display: flex;
+    padding-top: 100px;
+    background-color: white;
+}
+
+.leftside5 {
+    padding-left: 40px;
+    width: 55%;
+    height: 100%;
+    color: black;
+    text-align: left;
+    padding: 22px;
+}
+
+
+/* .leftside5 img {
+    width: 240px;
+    height: 200px;
+    padding-right: 25%;
+    padding-top: 10px;
+} */
+
+.gilgitimage {
+    width: 300px;
+    height: 210px;
+    padding-left: 25%;
+    padding-top: 20px;
+    /* margin-bottom: 10px; */
+}
+
+.instr5 {
+    border: 1px solid rgb(231, 219, 219);
+    /* border-style: outset; */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.leftside5 h4 {
+    padding-left: 29.5%;
+    padding-bottom: 14px;
+    font-size: 15px;
+    font-weight: 250;
+    font-family: serif;
+}
+
+.rightside5 {
+    margin-left: 7%;
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+    margin-top: 24px;
+}
+
+.leftside5 h1 {
+    text-align: left;
+    padding-top: 16px;
+    padding-left: 27.5%;
+    padding-bottom: 4px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.instr5 h3 {
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    /* padding-left: 40px; */
+    padding-top: 8px;
+    padding-bottom: 5px;
+    color: black;
+}
+
+.instr5 h3 span {
+    font-size: 11px;
+    padding-left: 3px;
+    /* font-family: 'Roboto', sans-serif;       */
+}
+
+
+/* Footer */
+
+section {
+    display: flex;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    padding-top: 7px;
+    /* background: linear-gradient(57deg, rgb(65, 206, 152) , rgb(48, 212, 157) );   */
+    padding: 13px;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+
+footer span {
+    color: rgb(32, 184, 204);
+}
